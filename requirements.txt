@@ -1,0 +1,55 @@
+# Core Framework
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+
+# Google Gemini API
+google-genai
+
+# WebSocket Support
+websockets
+
+# HTTP Client (for external API calls if needed)
+httpx
+aiohttp
+
+# Environment Variables Management
+python-dotenv
+
+# Logging
+structlog
+
+# Database
+sqlalchemy
+alembic
+psycopg2-binary
+asyncpg
+
+# Redis
+redis
+hiredis
+
+# ML & Data Science
+numpy
+pandas
+neuralprophet
+scikit-learn
+
+# LangGraph for orchestration
+langgraph
+langchain-core
+
+# Vector Database for RAG
+chromadb
+
+# SMS Service
+twilio
+
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
+
+# Other utilities
+python-json-logger

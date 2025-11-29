@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Database
+*.db
+*.sqlite
+chroma_db/
+
+# Models
+models/*.nprophet
+models/*.pkl
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
+
