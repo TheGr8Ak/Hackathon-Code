@@ -1,0 +1,28 @@
+[
+  {"name": "AIIMS Delhi", "lat": 28.5672, "lng": 77.2100, "type": "government", "emergency": true},
+  {"name": "Safdarjung Hospital", "lat": 28.5677, "lng": 77.2062, "type": "government", "emergency": true},
+  {"name": "Ram Manohar Lohia Hospital", "lat": 28.6326, "lng": 77.2109, "type": "government", "emergency": true},
+  {"name": "Lok Nayak Hospital", "lat": 28.6411, "lng": 77.2370, "type": "government", "emergency": true},
+  {"name": "Dr. RML Hospital", "lat": 28.6291, "lng": 77.2059, "type": "government", "emergency": true},
+  {"name": "Guru Teg Bahadur Hospital", "lat": 28.6733, "lng": 77.3129, "type": "government", "emergency": true},
+  {"name": "Artemis Hospital", "lat": 28.4250, "lng": 77.0680, "type": "private", "emergency": true},
+  {"name": "Medanta The Medicity", "lat": 28.4297, "lng": 77.0400, "type": "private", "emergency": true},
+  {"name": "Fortis Escorts", "lat": 28.5626, "lng": 77.2833, "type": "private", "emergency": true},
+  {"name": "Apollo Hospital", "lat": 28.5431, "lng": 77.2734, "type": "private", "emergency": true},
+  {"name": "Max Super Speciality Saket", "lat": 28.5285, "lng": 77.2193, "type": "private", "emergency": true},
+  {"name": "BLK Super Speciality", "lat": 28.6393, "lng": 77.1780, "type": "private", "emergency": true},
+  {"name": "Sir Ganga Ram Hospital", "lat": 28.6399, "lng": 77.1890, "type": "private", "emergency": true},
+  {"name": "Indraprastha Apollo", "lat": 28.5440, "lng": 77.2813, "type": "private", "emergency": true},
+  {"name": "Max Patparganj", "lat": 28.6350, "lng": 77.3062, "type": "private", "emergency": true},
+  {"name": "Venkateshwar Hospital", "lat": 28.5728, "lng": 77.0654, "type": "private", "emergency": true},
+  {"name": "Manipal Hospital Dwarka", "lat": 28.5920, "lng": 77.0524, "type": "private", "emergency": true},
+  {"name": "Sri Balaji Action Hospital", "lat": 28.6440, "lng": 77.1037, "type": "private", "emergency": true},
+  {"name": "Holy Family Hospital", "lat": 28.5615, "lng": 77.2796, "type": "private", "emergency": true},
+  {"name": "Deen Dayal Upadhyay Hospital", "lat": 28.6105, "lng": 77.0950, "type": "government", "emergency": true},
+  {"name": "ESIC Hospital Basaidarapur", "lat": 28.6471, "lng": 77.1489, "type": "government", "emergency": true},
+  {"name": "Moolchand Hospital", "lat": 28.5675, "lng": 77.2427, "type": "private", "emergency": true},
+  {"name": "Batra Hospital", "lat": 28.5095, "lng": 77.2418, "type": "private", "emergency": true},
+  {"name": "Kalawati Saran Hospital", "lat": 28.6376, "lng": 77.2089, "type": "government", "emergency": true},
+  {"name": "Hindu Rao Hospital", "lat": 28.6726, "lng": 77.2078, "type": "government", "emergency": true}
+]
+

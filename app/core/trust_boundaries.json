@@ -1,0 +1,80 @@
+{
+  "action_types": {
+    "PURCHASE_ORDER": {
+      "low_risk_threshold": {
+        "cost_max": 50000,
+        "vendor_whitelist": ["vendor_a", "vendor_b", "vendor_c"],
+        "item_categories_allowed": ["medical_supplies", "consumables"]
+      },
+      "medium_risk_threshold": {
+        "cost_max": 200000,
+        "vendor_whitelist": ["vendor_a", "vendor_b", "vendor_c", "vendor_d"],
+        "item_categories_allowed": ["medical_supplies", "consumables", "equipment"]
+      },
+      "high_risk_threshold": {
+        "cost_max": 500000
+      },
+      "required_approvals": {
+        "LOW": [],
+        "MEDIUM": ["procurement_manager"],
+        "HIGH": ["procurement_manager", "finance_manager"],
+        "CRITICAL": ["procurement_manager", "finance_manager", "cmo"]
+      }
+    },
+    "STAFFING_CHANGE": {
+      "low_risk_threshold": {
+        "overtime_hours_max": 20,
+        "temp_staff_count_max": 5,
+        "department_restrictions": []
+      },
+      "medium_risk_threshold": {
+        "overtime_hours_max": 40,
+        "temp_staff_count_max": 10
+      },
+      "required_approvals": {
+        "LOW": [],
+        "MEDIUM": ["hr_manager"],
+        "HIGH": ["hr_manager", "department_head"],
+        "CRITICAL": ["hr_manager", "department_head", "cmo"]
+      }
+    },
+    "PATIENT_ADVISORY": {
+      "low_risk_threshold": {
+        "recipient_count_max": 2000,
+        "forbidden_keywords": ["prescription", "medication", "dosage"],
+        "advisory_types_allowed": ["pollution_alert", "surge_warning"]
+      },
+      "medium_risk_threshold": {
+        "recipient_count_max": 5000,
+        "advisory_types_allowed": ["pollution_alert", "surge_warning", "epidemic_alert"]
+      },
+      "required_approvals": {
+        "LOW": [],
+        "MEDIUM": ["communications_manager"],
+        "HIGH": ["communications_manager", "cmo"],
+        "CRITICAL": ["communications_manager", "cmo", "legal"]
+      }
+    },
+    "INVENTORY_TRANSFER": {
+      "low_risk_threshold": {
+        "value_max": 30000,
+        "department_restrictions": []
+      },
+      "medium_risk_threshold": {
+        "value_max": 100000
+      },
+      "required_approvals": {
+        "LOW": [],
+        "MEDIUM": ["inventory_manager"],
+        "HIGH": ["inventory_manager", "department_head"],
+        "CRITICAL": ["inventory_manager", "department_head", "cmo"]
+      }
+    }
+  },
+  "global_rules": {
+    "kill_switch_active": false,
+    "max_autonomous_actions_per_hour": 50,
+    "emergency_override": false
+  }
+}
+
